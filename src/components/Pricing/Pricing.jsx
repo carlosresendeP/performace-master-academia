@@ -13,6 +13,13 @@ import {
 } from './Pricing.styles';
 
 const Pricing = () => {
+  const openWhatsAppWithPlan = (planName, planPrice) => {
+    const phoneNumber = "5511999999999";
+    const message = `Olá! Quero o plano *${planName}* (${planPrice}/mês) da Performance Master!\n\nPodemos conversar sobre os detalhes e como começar minha jornada fitness?`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   const plans = [
     {
       name: "Básico",
@@ -82,7 +89,10 @@ const Pricing = () => {
                   </Feature>
                 ))}
               </FeaturesList>
-              <PricingButton featured={plan.featured}>
+              <PricingButton 
+                featured={plan.featured}
+                onClick={() => openWhatsAppWithPlan(plan.name, plan.price)}
+              >
                 Escolher Plano
               </PricingButton>
             </PricingCard>
