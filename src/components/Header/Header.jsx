@@ -30,7 +30,7 @@ const Header = () => {
           <NavItem><a href="#services" onClick={closeMenu}>Serviços</a></NavItem>
           <NavItem><a href="#pricing" onClick={closeMenu}>Preços</a></NavItem>
           <NavItem><a href="#gallery" onClick={closeMenu}>Galeria</a></NavItem>
-          <NavItem><a href="#testimonials" onClick={closeMenu}>Depoimentos</a></NavItem>
+          {/* <NavItem><a href="#testimonials" onClick={closeMenu}>Depoimentos</a></NavItem> */}
           <NavItem><a href="#contact" onClick={closeMenu}>Contato</a></NavItem>
         </NavList>
         <MenuToggle onClick={toggleMenu}>
