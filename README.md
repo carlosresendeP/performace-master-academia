@@ -1,130 +1,90 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Performance Master - Landing Page com IA</title>
-</head>
-<body>
+# 🏋️‍♂️ Performance Master - Landing Page com IA
 
-<h1>🏋️‍♂️ Performance Master - Landing Page com IA</h1>
+Uma landing page completa e profissional para a academia Performance Master, desenvolvida com React, Vite e Styled Components, **integrada com chatbot inteligente com n8n**.
 
-<p>Uma landing page completa e profissional para a academia Performance Master, desenvolvida com React, Vite e Styled Components, <strong>integrada com chatbot inteligente com n8n</strong>.</p>
+## 🤖 Novidade: Chatbot com Inteligência Artificial
 
-<h2>🤖 Novidade: Chatbot com Inteligência Artificial</h2>
+Esta landing page inclui um **sistema de chat conversacional** integrado ao n8n, proporcionando atendimento automatizado e inteligente 24/7.
 
-<p>Esta landing page inclui um <strong>sistema de chat conversacional</strong> integrado ao n8n, proporcionando atendimento automatizado e inteligente 24/7.</p>
+### 🧠 Funcionalidades do Chatbot IA:
 
-<h3>Imagens do Projeto</h3>
+- **💬 Chat Interativo**: Interface moderna estilo WhatsApp
+- **🔗 Integração n8n**: Webhook para processamento de IA
+- **⚡ Respostas Instantâneas**: IA treinada sobre academia e fitness
+- **📱 Multi-canal**: Chat interno + redirecionamento WhatsApp
+- **🎯 Contextual**: Respostas personalizadas para planos, horários e serviços
+- **📊 Analytics**: Tracking de conversas via n8n
 
-<h4>Desktop</h4>
-<p>
-  <img src="./src/assets/project-apresentation/image-desk-1.png" width="200">
-  <img src="./src/assets/project-apresentation/image-desk-2.png" width="200">
-  <img src="./src/assets/project-apresentation/image-desk-3.png" width="200">
-  <img src="./src/assets/project-apresentation/image-desk-4.png" width="200">
-  <img src="./src/assets/project-apresentation/image-desk-5.png" width="200">
-  <img src="./src/assets/project-apresentation/image-desk-6.png" width="200">
-</p>
+## 🏋️‍♂️ Sobre o Projeto
 
-<h4>Mobile</h4>
-<p>
-  <img src="./src/assets/project-apresentation/image-mobile-1.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-2.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-3.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-4.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-5.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-6.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-7.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-8.png" width="200">
-  <img src="./src/assets/project-apresentation/image-mobile-9.png" width="200">
-</p>
+<img width="1866" height="923" alt="Captura de tela 2025-09-13 095116" src="https://github.com/user-attachments/assets/11a9bd9e-aecf-425f-9329-313c4fc64d46" />
+<img width="1709" height="856" alt="Captura de tela 2025-09-13 103317" src="https://github.com/user-attachments/assets/5af13edc-63e2-494c-9fd2-4814ad370089" />
+<img width="336" height="387" alt="Captura de tela 2025-09-13 103327" src="https://github.com/user-attachments/assets/2fb0f9fd-38ea-4474-b7e7-c0af4ef429b2" />
 
-<h3>🧠 Funcionalidades do Chatbot IA:</h3>
+<img width="1511" height="441" alt="Captura de tela 2025-09-13 101313" src="https://github.com/user-attachments/assets/e1e78b7b-fb9e-4a80-be90-e5bc698be09b" />
 
-<ul>
-  <li><strong>💬 Chat Interativo</strong>: Interface moderna estilo WhatsApp</li>
-  <li><strong>🔗 Integração n8n</strong>: Webhook para processamento de IA</li>
-  <li><strong>⚡ Respostas Instantâneas</strong>: IA treinada sobre academia e fitness</li>
-  <li><strong>📱 Multi-canal</strong>: Chat interno + redirecionamento WhatsApp</li>
-  <li><strong>🎯 Contextual</strong>: Respostas personalizadas para planos, horários e serviços</li>
-  <li><strong>📊 Analytics</strong>: Tracking de conversas via n8n</li>
-</ul>
 
-<h2>🏋️‍♂️ Sobre o Projeto</h2>
+Landing page responsiva para academia com design moderno e profissional, incluindo:
 
-<p>Landing page responsiva para academia com design moderno e profissional, incluindo:</p>
+### 📋 Seções Implementadas
 
-<h3>📋 Seções Implementadas</h3>
+1. **Header** - Navegação fixa com menu responsivo
+2. **Hero** - Seção principal com call-to-action
+3. **About** - Sobre a academia com estatísticas
+4. **Services** - Serviços oferecidos (6 modalidades)
+5. **Pricing** - Planos e preços (3 opções)
+6. **Gallery** - Galeria de fotos da academia
+7. **Testimonials** - Depoimentos de clientes
+8. **CTA** - Call-to-action com oferta especial
+9. **Footer** - Informações de contato e links
+10. **🤖 WhatsApp Float** - Widget de chat com IA integrada
 
-<ol>
-  <li><strong>Header</strong> - Navegação fixa com menu responsivo</li>
-  <li><strong>Hero</strong> - Seção principal com call-to-action</li>
-  <li><strong>About</strong> - Sobre a academia com estatísticas</li>
-  <li><strong>Services</strong> - Serviços oferecidos (6 modalidades)</li>
-  <li><strong>Pricing</strong> - Planos e preços (3 opções)</li>
-  <li><strong>Gallery</strong> - Galeria de fotos da academia</li>
-  <li><strong>Testimonials</strong> - Depoimentos de clientes</li>
-  <li><strong>CTA</strong> - Call-to-action com oferta especial</li>
-  <li><strong>Footer</strong> - Informações de contato e links</li>
-  <li><strong>🤖 WhatsApp Float</strong> - Widget de chat com IA integrada</li>
-</ol>
+## 🚀 Tecnologias Utilizadas
 
-<h2>🚀 Tecnologias Utilizadas</h2>
+### Frontend
+- **React 18** - Biblioteca JavaScript para interfaces
+- **Vite** - Build tool moderna e rápida
+- **Styled Components** - CSS-in-JS para estilização
+- **React Icons** - Biblioteca de ícones
 
-<h3>Frontend</h3>
-<ul>
-  <li><strong>React 18</strong> - Biblioteca JavaScript para interfaces</li>
-  <li><strong>Vite</strong> - Build tool moderna e rápida</li>
-  <li><strong>Styled Components</strong> - CSS-in-JS para estilização</li>
-  <li><strong>React Icons</strong> - Biblioteca de ícones</li>
-</ul>
+### IA & Automação
+- **n8n** - Plataforma de automação para chatbot
+- **Webhook Integration** - Comunicação em tempo real
+- **AI Processing** - Processamento inteligente de mensagens
 
-<h3>IA & Automação</h3>
-<ul>
-  <li><strong>n8n</strong> - Plataforma de automação para chatbot</li>
-  <li><strong>Webhook Integration</strong> - Comunicação em tempo real</li>
-  <li><strong>AI Processing</strong> - Processamento inteligente de mensagens</li>
-</ul>
+## 📱 Recursos
 
-<h2>📱 Recursos</h2>
+### 🎯 Funcionalidades Core
+- ✅ Totalmente responsiva
+- ✅ Design moderno e profissional
+- ✅ Animações suaves
+- ✅ Menu mobile hamburger
+- ✅ Scroll suave entre seções
+- ✅ Otimizada para SEO
+- ✅ Cores e identidade visual consistente
 
-<h3>🎯 Funcionalidades Core</h3>
-<ul>
-  <li>✅ Totalmente responsiva</li>
-  <li>✅ Design moderno e profissional</li>
-  <li>✅ Animações suaves</li>
-  <li>✅ Menu mobile hamburger</li>
-  <li>✅ Scroll suave entre seções</li>
-  <li>✅ Otimizada para SEO</li>
-  <li>✅ Cores e identidade visual consistente</li>
-</ul>
+### 🤖 Funcionalidades IA/Chat
+- ✅ **Chat Widget Flutuante** - Sempre acessível
+- ✅ **Interface Conversacional** - UX intuitiva
+- ✅ **Typing Indicators** - Feedback visual em tempo real
+- ✅ **Message History** - Histórico da conversa
+- ✅ **Multi-estado** - Inicial, chat ativo, loading
+- ✅ **Fallback WhatsApp** - Integração com WhatsApp Web
+- ✅ **Responsive Design** - Mobile-first approach
 
-<h3>🤖 Funcionalidades IA/Chat</h3>
-<ul>
-  <li>✅ <strong>Chat Widget Flutuante</strong> - Sempre acessível</li>
-  <li>✅ <strong>Interface Conversacional</strong> - UX intuitiva</li>
-  <li>✅ <strong>Typing Indicators</strong> - Feedback visual em tempo real</li>
-  <li>✅ <strong>Message History</strong> - Histórico da conversa</li>
-  <li>✅ <strong>Multi-estado</strong> - Inicial, chat ativo, loading</li>
-  <li>✅ <strong>Fallback WhatsApp</strong> - Integração com WhatsApp Web</li>
-  <li>✅ <strong>Responsive Design</strong> - Mobile-first approach</li>
-</ul>
+## 🎨 Paleta de Cores
 
-<h2>🎨 Paleta de Cores</h2>
+- **Primária**: #ff6b35 (Laranja Performance)
+- **Secundária**: #f7931e (Amarelo Energy)
+- **Escura**: #2c3e50 (Professional Dark)
+- **Clara**: #f8f9fa (Clean Light)
+- **Success**: #25d366 (WhatsApp Green)
 
-<ul>
-  <li><strong>Primária</strong>: #ff6b35 (Laranja Performance)</li>
-  <li><strong>Secundária</strong>: #f7931e (Amarelo Energy)</li>
-  <li><strong>Escura</strong>: #2c3e50 (Professional Dark)</li>
-  <li><strong>Clara</strong>: #f8f9fa (Clean Light)</li>
-  <li><strong>Success</strong>: #25d366 (WhatsApp Green)</li>
-</ul>
+## 📦 Instalação e Uso
 
-<h2>📦 Instalação e Uso</h2>
-
-<pre><code># Clonar repositório
-git clone &lt;repository-url&gt;
+```bash
+# Clonar repositório
+git clone <repository-url>
 cd projeto-performace
 
 # Instalar dependências
