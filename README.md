@@ -204,21 +204,6 @@ return { json: { response } };
 │       └── WhatsAppFloat.styles.js
 ├── assets/
 │   └── project-apresentation/
-│       ├── image-desk-1.png
-│       ├── image-desk-2.png
-│       ├── image-desk-3.png
-│       ├── image-desk-4.png
-│       ├── image-desk-5.png
-│       ├── image-desk-6.png
-│       ├── image-mobile-1.png
-│       ├── image-mobile-2.png
-│       ├── image-mobile-3.png
-│       ├── image-mobile-4.png
-│       ├── image-mobile-5.png
-│       ├── image-mobile-6.png
-│       ├── image-mobile-7.png
-│       ├── image-mobile-8.png
-│       └── image-mobile-9.png
 ├── styles/
 │   ├── GlobalStyles.js
 │   └── theme.js
@@ -266,19 +251,6 @@ return { json: { response } };
   <li>Integração com CRM (futuro)</li>
 </ul>
 
-<h2>🤖 Arquitetura do Chatbot</h2>
-
-<pre><code>┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   React Chat    │────│   n8n Webhook   │────│   AI Processing │
-│   Interface     │    │   Integration   │    │   & Responses   │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-        │                        │                        │
-        ▼                        ▼                        ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ State Management│    │  Session Mgmt   │    │ Knowledge Base  │
-│ & UI Updates    │    │  & Analytics    │    │ (Academia Info) │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-</code></pre>
 
 <h2>📊 Analytics & Monitoring</h2>
 
@@ -320,7 +292,6 @@ return { json: { response } };
 
 <p><strong>Desenvolvido por Carlos Resende para a Performance Master - ficcional</strong></p>
 
-<p><em>Transformando fitness com tecnologia e inteligência artificial</em></p>
 
 </body>
 </html>
@@ -346,7 +317,6 @@ return { json: { response } };
 - ✅ **Message History** - Histórico da conversa
 - ✅ **Multi-estado** - Inicial, chat ativo, loading
 - ✅ **Fallback WhatsApp** - Integração com WhatsApp Web
-- ✅ **Responsive Design** - Mobile-first approach
 
 ## 🎨 Paleta de Cores
 
@@ -356,170 +326,4 @@ return { json: { response } };
 - **Clara**: #f8f9fa (Clean Light)
 - **Success**: #25d366 (WhatsApp Green)
 
-## 📦 Instalação e Uso
-
-```bash
-# Clonar repositório
-git clone <repository-url>
-cd projeto-performace
-
-# Instalar dependências
-npm install
-
-# Executar em modo desenvolvimento
-npm run dev
-
-# Build para produção
-npm run build
-
-# Preview da build
-npm run preview
-</code></pre>
-
-<h2>🔧 Configuração do Chatbot n8n</h2>
-
-<h3>1. Setup do Webhook</h3>
-
-<p>Configure um workflow no n8n com:</p>
-
-<pre><code>// Function Node - Processamento IA
-const userMessage = $('Webhook').first().json.message;
-
-let response = "";
-
-if (userMessage.toLowerCase().includes("preço") || userMessage.toLowerCase().includes("plano")) {
-  response = "Temos 3 planos incríveis! 🏋️‍♂️\n\n💪 Básico: R$ 89/mês\n🔥 Premium: R$ 129/mês\n⭐ VIP: R$ 189/mês\n\nQual desperta seu interesse?";
-} else if (userMessage.toLowerCase().includes("horário")) {
-  response = "Funcionamos de:\n📅 Segunda a Sexta: 5h às 23h\n📅 Sábado: 7h às 19h\n📅 Domingo: 8h às 18h";
-} else {
-  response = "Olá! Sou o assistente da Performance Master! 💪 Posso te ajudar com informações sobre planos, horários, modalidades e muito mais!";
-}
-
-return { json: { response } };
-</code></pre>
-
-<h3>2. Estrutura do Webhook Response</h3>
-
-<pre><code>{
-  "response": "{{ $json.response }}"
-}
-</code></pre>
-
-<h3>3. URL Configuration</h3>
-
-<p>Configure a URL do webhook no arquivo <code>WhatsAppFloat.jsx</code>:</p>
-
-<pre><code>const N8N_WEBHOOK_URL = 'SEU LINK DO WEBHOOK';
-</code></pre>
-
-<h2>📁 Estrutura do Projeto</h2>
-
-<pre><code>src/
-├── components/
-│   ├── Header/
-│   │   ├── Header.jsx
-│   │   └── Header.styles.js
-│   ├── Hero/
-│   │   ├── Hero.jsx
-│   │   └── Hero.styles.js
-│   ├── About/
-│   │   ├── About.jsx
-│   │   └── About.styles.js
-│   ├── Services/
-│   │   ├── Services.jsx
-│   │   └── Services.styles.js
-│   ├── Pricing/
-│   │   ├── Pricing.jsx
-│   │   └── Pricing.styles.js
-│   ├── Gallery/
-│   │   ├── Gallery.jsx
-│   │   └── Gallery.styles.js
-│   ├── Testimonials/
-│   │   ├── Testimonials.jsx
-│   │   └── Testimonials.styles.js
-│   ├── CTA/
-│   │   ├── CTA.jsx
-│   │   └── CTA.styles.js
-│   ├── Footer/
-│   │   ├── Footer.jsx
-│   │   └── Footer.styles.js
-│   └── 🤖 WhatsAppFloat/
-│       ├── WhatsAppFloat.jsx    # Chat IA Component
-│       └── WhatsAppFloat.styles.js
-├── styles/
-│   ├── GlobalStyles.js
-│   └── theme.js
-└── App.jsx
-</code></pre>
-
-<h2>🎯 Funcionalidades Detalhadas</h2>
-
-<h3>🏠 Landing Page Core</h3>
-<ul>
-  <li>Menu de navegação com scroll suave</li>
-  <li>Seção hero com background parallax</li>
-  <li>Cards interativos com hover effects</li>
-  <li>Galeria de imagens responsiva</li>
-  <li>Formulário de contato (CTA)</li>
-  <li>Links para redes sociais</li>
-  <li>Informações de contato e horários</li>
-</ul>
-
-<h3>🤖 Sistema de Chat IA</h3>
-<ul>
-  <li><strong>Chat Interface</strong>: Design moderno estilo WhatsApp</li>
-  <li><strong>State Management</strong>: React hooks para gerenciar conversa</li>
-  <li><strong>Message Types</strong>: Suporte a mensagens de usuário e bot</li>
-  <li><strong>Typing Simulation</strong>: Indicador visual de "digitando..."</li>
-  <li><strong>Session Persistence</strong>: Histórico da conversa mantido</li>
-  <li><strong>Error Handling</strong>: Fallbacks para problemas de conexão</li>
-  <li><strong>Multi-channel</strong>: Chat direto + WhatsApp integration</li>
-</ul>
-
-<h2>🔗 Integrações</h2>
-
-<h3>WhatsApp Business</h3>
-<ul>
-  <li>Link direto para WhatsApp Web</li>
-  <li>Mensagens pré-formatadas por contexto</li>
-  <li>Números de telefone configuráveis</li>
-</ul>
-
-<h3>n8n Automation</h3>
-<ul>
-  <li>Webhook para receber mensagens</li>
-  <li>Processamento de IA customizável</li>
-  <li>Analytics e logging de conversas</li>
-  <li>Integração com CRM (futuro)</li>
-</ul>
-
-<h2>📊 Analytics & Monitoring</h2>
-
-<p>O sistema de chat coleta métricas importantes:</p>
-
-<ul>
-  <li><strong>Engagement</strong>: Taxa de interação com o chat</li>
-  <li><strong>Conversion</strong>: Mensagens que geram leads</li>
-</ul>
-
-<h2>📧 Contato & Suporte</h2>
-
-<p>Para dúvidas sobre implementação ou personalização:</p>
-
-<ul>
-  <li><strong>Chat IA</strong>: Use o próprio sistema de chat da página! 🤖</li>
-  <li><strong>WhatsApp</strong>: +55 11 9999-9999</li>
-  <li><strong>Email</strong>: contato@performancemaster.com</li>
-</ul>
-
-<h2>📄 Licença</h2>
-
-<p>Este projeto está sob licença MIT. Veja o arquivo <a href="LICENSE">LICENSE</a> para mais detalhes.</p>
-
-<hr>
-
-<p><strong>Desenvolvido por Carlos Resende para a Performance Master - ficcional</strong></p>
-
-</body>
-</html>
 
