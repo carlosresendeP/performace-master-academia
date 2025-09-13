@@ -1,6 +1,6 @@
 # 🏋️‍♂️ Performance Master - Landing Page com IA
 
-Uma landing page completa e profissional para a academia Performance Master, desenvolvida com React, Vite e Styled Components, **integrada com chatbot inteligente powered by n8n**.
+Uma landing page completa e profissional para a academia Performance Master, desenvolvida com React, Vite e Styled Components, **integrada com chatbot inteligente com n8n**.
 
 ## 🤖 Novidade: Chatbot com Inteligência Artificial
 
@@ -16,6 +16,13 @@ Esta landing page inclui um **sistema de chat conversacional** integrado ao n8n,
 - **📊 Analytics**: Tracking de conversas via n8n
 
 ## 🏋️‍♂️ Sobre o Projeto
+
+<img width="1866" height="923" alt="Captura de tela 2025-09-13 095116" src="https://github.com/user-attachments/assets/11a9bd9e-aecf-425f-9329-313c4fc64d46" />
+<img width="1709" height="856" alt="Captura de tela 2025-09-13 103317" src="https://github.com/user-attachments/assets/5af13edc-63e2-494c-9fd2-4814ad370089" />
+<img width="336" height="387" alt="Captura de tela 2025-09-13 103327" src="https://github.com/user-attachments/assets/2fb0f9fd-38ea-4474-b7e7-c0af4ef429b2" />
+
+<img width="1511" height="441" alt="Captura de tela 2025-09-13 101313" src="https://github.com/user-attachments/assets/e1e78b7b-fb9e-4a80-be90-e5bc698be09b" />
+
 
 Landing page responsiva para academia com design moderno e profissional, incluindo:
 
@@ -44,21 +51,6 @@ Landing page responsiva para academia com design moderno e profissional, incluin
 - **n8n** - Plataforma de automação para chatbot
 - **Webhook Integration** - Comunicação em tempo real
 - **AI Processing** - Processamento inteligente de mensagens
-
-## 🤖 Arquitetura do Chatbot
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   React Chat    │────│   n8n Webhook   │────│   AI Processing │
-│   Interface     │    │   Integration   │    │   & Responses   │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-        │                        │                        │
-        ▼                        ▼                        ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│ State Management│    │  Session Mgmt   │    │ Knowledge Base  │
-│ & UI Updates    │    │  & Analytics    │    │ (Academia Info) │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-```
 
 ## 📱 Recursos
 
@@ -144,7 +136,7 @@ return { json: { response } };
 Configure a URL do webhook no arquivo `WhatsAppFloat.jsx`:
 
 ```javascript
-const N8N_WEBHOOK_URL = 'https://your-n8n-instance.com/webhook/chatbot';
+const N8N_WEBHOOK_URL = 'SEU LINK DO WEBHOOK';
 ```
 
 ## 📁 Estrutura do Projeto
@@ -227,17 +219,8 @@ O sistema de chat coleta métricas importantes:
 
 - **Engagement**: Taxa de interação com o chat
 - **Conversion**: Mensagens que geram leads
-- **Popular Queries**: Perguntas mais frequentes
-- **Session Duration**: Tempo médio de conversa
 
-## 🚀 Próximas Funcionalidades
 
-- [ ] **Integração CRM** - Salvar leads automaticamente
-- [ ] **Chat Persistente** - Histórico entre sessões
-- [ ] **Rich Responses** - Botões e carrosséis
-- [ ] **Voice Integration** - Comandos por voz
-- [ ] **Multilingual** - Suporte a múltiplos idiomas
-- [ ] **Analytics Dashboard** - Métricas detalhadas
 
 ## 📧 Contato & Suporte
 
@@ -253,6 +236,5 @@ Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais
 
 ---
 
-**Desenvolvido com ❤️ e 🤖 para a Performance Master**
+**Desenvolvido por Carlos Resende para a Performance Master - ficcional**
 
-*Transformando fitness com tecnologia e inteligência artificial*
