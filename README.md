@@ -22,6 +22,8 @@ Esta landing page inclui um **sistema de chat conversacional** integrado ao n8n,
 <img width="336" height="387" alt="Captura de tela 2025-09-13 103327" src="https://github.com/user-attachments/assets/2fb0f9fd-38ea-4474-b7e7-c0af4ef429b2" />
 
 <img width="1511" height="441" alt="Captura de tela 2025-09-13 101313" src="https://github.com/user-attachments/assets/e1e78b7b-fb9e-4a80-be90-e5bc698be09b" />
+<img width="548" height="921" alt="Captura de tela 2025-09-13 110507" src="https://github.com/user-attachments/assets/31625c86-04e1-4d5d-bbf3-fe6714336e48" />
+
 
 
 Landing page responsiva para academia com design moderno e profissional, incluindo:
