@@ -42,7 +42,7 @@ export const NavList = styled.ul`
     background: rgba(44, 62, 80, 0.98);
     flex-direction: column;
     padding: 2rem;
-    transform: ${props => props.isOpen ? 'translateX(0)' : 'translateX(-100%)'};
+    transform: ${props => props.$isOpen ? 'translateX(0)' : 'translateX(-100%)'};
     transition: transform 0.3s ease;
   }
 `;

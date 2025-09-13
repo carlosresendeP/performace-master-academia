@@ -70,7 +70,7 @@ const Pricing = () => {
         <Title>Planos e Preços</Title>
         <PricingGrid>
           {plans.map((plan, index) => (
-            <PricingCard key={index} featured={plan.featured}>
+            <PricingCard key={index} $featured={plan.featured}>
               {plan.featured && (
                 <PopularBadge>
                   <FaStar /> Mais Popular
@@ -90,7 +90,7 @@ const Pricing = () => {
                 ))}
               </FeaturesList>
               <PricingButton 
-                featured={plan.featured}
+                $featured={plan.featured}
                 onClick={() => openWhatsAppWithPlan(plan.name, plan.price)}
               >
                 Escolher Plano

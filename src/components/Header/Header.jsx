@@ -24,7 +24,7 @@ const Header = () => {
     <HeaderContainer>
       <Nav>
         <Logo>Performance Master</Logo>
-        <NavList isOpen={isMenuOpen}>
+        <NavList $isOpen={isMenuOpen}>
           <NavItem><a href="#home" onClick={closeMenu}>Home</a></NavItem>
           <NavItem><a href="#about" onClick={closeMenu}>Sobre</a></NavItem>
           <NavItem><a href="#services" onClick={closeMenu}>Serviços</a></NavItem>

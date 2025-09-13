@@ -24,7 +24,7 @@ export const PricingCard = styled.div`
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   position: relative;
-  border: ${props => props.featured ? '3px solid #ff6b35' : '1px solid #f0f0f0'};
+  border: ${props => props.$featured ? '3px solid #ff6b35' : '1px solid #f0f0f0'};
 
   &:hover {
     transform: translateY(-10px);
@@ -94,8 +94,8 @@ export const Feature = styled.li`
 
 export const PricingButton = styled(Button)`
   width: 100%;
-  background: ${props => props.featured ?
-        'linear-gradient(135deg, #ff6b35, #f7931e)' :
-        'linear-gradient(135deg, #2c3e50, #34495e)'
-    };
+  background: ${props => props.$featured ?
+    'linear-gradient(135deg, #ff6b35, #f7931e)' :
+    'linear-gradient(135deg, #2c3e50, #34495e)'
+  };
 `;
