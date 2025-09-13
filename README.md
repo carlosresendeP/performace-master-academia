@@ -138,21 +138,16 @@ npm run preview
 
 <p>Configure um workflow no n8n com:</p>
 
-<pre><code>// Function Node - Processamento IA
-const userMessage = $('Webhook').first().json.message;
+<img alt="n8n" src="https://github.com/user-attachments/assets/9ab17b2e-5550-48a4-bef1-023c2f5e8881" width="400">
+<ul>
+  <li>Webhook</li>
+  <li>Set (edit)</li>
+  <li>ia com gpt</li>
+  <li>code</li>
+  <li>de saida webhook</li>
+</ul>
 
-let response = "";
 
-if (userMessage.toLowerCase().includes("preço") || userMessage.toLowerCase().includes("plano")) {
-  response = "Temos 3 planos incríveis! 🏋️‍♂️\n\n💪 Básico: R$ 89/mês\n🔥 Premium: R$ 129/mês\n⭐ VIP: R$ 189/mês\n\nQual desperta seu interesse?";
-} else if (userMessage.toLowerCase().includes("horário")) {
-  response = "Funcionamos de:\n📅 Segunda a Sexta: 5h às 23h\n📅 Sábado: 7h às 19h\n📅 Domingo: 8h às 18h";
-} else {
-  response = "Olá! Sou o assistente da Performance Master! 💪 Posso te ajudar com informações sobre planos, horários, modalidades e muito mais!";
-}
-
-return { json: { response } };
-</code></pre>
 
 <h3>2. Estrutura do Webhook Response</h3>
 
@@ -259,20 +254,10 @@ return { json: { response } };
 <ul>
   <li><strong>Engagement</strong>: Taxa de interação com o chat</li>
   <li><strong>Conversion</strong>: Mensagens que geram leads</li>
-  <li><strong>Popular Queries</strong>: Perguntas mais frequentes</li>
-  <li><strong>Session Duration</strong>: Tempo médio de conversa</li>
 </ul>
 
-<h2>🚀 Próximas Funcionalidades</h2>
 
-<ul>
-  <li>☐ <strong>Integração CRM</strong> - Salvar leads automaticamente</li>
-  <li>☐ <strong>Chat Persistente</strong> - Histórico entre sessões</li>
-  <li>☐ <strong>Rich Responses</strong> - Botões e carrosséis</li>
-  <li>☐ <strong>Voice Integration</strong> - Comandos por voz</li>
-  <li>☐ <strong>Multilingual</strong> - Suporte a múltiplos idiomas</li>
-  <li>☐ <strong>Analytics Dashboard</strong> - Métricas detalhadas</li>
-</ul>
+
 
 <h2>📧 Contato & Suporte</h2>
 
